@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* HTML and Body styles*/
+
+html {
+	font-family: Arial,sans-serif;
+ }
+ 
+body {
+	background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px,
+				inset rgb(51, 21, 21) 0px 0px 40px;
+	border-left: 3px solid rgb(51, 51, 51);
+	border-right: 3px solid rgb(51, 51, 51);
+	min-height: 100%;  
+	margin: 0px auto;
+	min-width: 320px;
+	max-width: 1020px;  
+	width: 100%;
+ }
+ 
+
+/* Header styles */
+
+header {
+	background-color: rgba(20, 247, 216, 0.733);
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 150px;
+    width:  1000px;
+}
+
+
+main{
+    background-color: rgba(2, 31, 14, 0.63);
+    height:50px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left:10px;
+    width:1000px;
+    text-align: center ;   
+}
+ 
+header img {
+    float: left;
+}
+
+/* Navigation list styles */
+
+a {
+    color:rgb(21, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*Section*/
+
+section{
+	background-color: honeydew;
+	text-align: left;
+}
+
+/*Form*/
+
+input[type=text], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Footer*/
+
+footer {
+    background-color:rgba(20, 247, 216, 0.733);
+    text-align: center;
+    font-size: 2.5em;
+    height:80px;
+    width: 1000px;
+}
+.f a{
+	color:white;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Beautiful Flowers</title>
+   <link rel="stylesheet" href="bf_payment.css">
+
+</head>
+
+<body>
+    <div class="box1">
+    <header>
+        <p>
+        <img src="logo1.jpeg" alt="beautiful flowers" width="200" height="150" />
+        PAYMENT INFO
+        </p>
+    </header>
+        <nav>
+            <img src="picture1.jpeg" alt="bonquet" width="1000">
+        </nav>
+
+        <main>
+            <a href="homepage.html">HOME</a>
+            <a href="Contactus.html">Contact us</a>
+            <a href="1st_page.html">Flowers and Gifts</a>
+            <a href="bf_cart.html">Cart</a>
+            <a href="Report.html">Feedback</a>
+            <a href="Membership.html">Membership</a>
+        </main>
+    <section>
+        <article>
+            <h1>Checkout Form</h1>
+            <form>
+            <div>
+                <label for="Cname">Full Name</label>
+                <input type="text" id="Cname" name="Cname" placeholder="First and Last Name" required/>
+            </div>
+            <br/>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="alex@example.com"/>
+            </div>
+            <br/>
+            <div>
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" name="Cname" placeholder="nnn-nnn nnnn" required/>
+            </div>
+            <br/>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="e.g 13, Jalan 2/1, Taman Intan" required/>
+            </div>
+            <br/>
+            <div>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="e.g Selangor"/>
+            </div>
+            <br/>
+            <div>
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="e.g Batu Caves">
+            </div>
+            <br/>
+            <div>
+                <label for="payment">Payment</label>
+                <select id="payment" name="payment">
+                    <option value="cash">Cash on delivery</option>
+                    <option value="online">Touch'n Go eWallet</option>
+                    <option value="card">Debit Card</option>
+                </select>
+            </div>
+            <br/>
+            <label>
+                <input type="checkbox" checked="checked" name="sameaddress">Shipping address same as above
+            </label>
+            <br/>
+            
+            </form>
+            <div class="col-10">
+                <div class="contain">
+                <h2>Cart
+                    <span class="price" style="color: black;"><b>6</b>
+                    </span>    
+                </h2>
+                <p><a href="1st_page.html">#001</a><span class="price">RM500</span></p>
+               
+                <hr>
+                <p>Total <span class="price" style="color: black;"><b>RM500</b></span></p>
+                </div>
+            </div>
+
+            <a href="orderDetail.html"><input type="submit" value="PAY NOW" /></a>
+            
+        </article>
+    </section>
+    </div>
+    
+    <footer>
+        <div class="f">Beautiful Flowers  &#9880 <a href="mailto:beautifulflowers@gmail.com">beautifulflowers@gmail.com</a>
+          &#9880<a href="tel:+60189709776">phone</a>
+        </div>
+        </footer>
+
+</body>
+    
+</html>

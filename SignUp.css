@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* HTML and Body styles*/
+
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* Header styles */
+header {
+    background-color: rgba(20, 247, 216, 0.733);
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 150px;
+    width:  1000px;
+ 
+}
+main{
+    background-color: rgba(2, 31, 14, 0.63);
+    height:50px;
+    font-size: 15px;
+    padding-top: 20px;
+    width:1000px;
+    text-align: center ; 
+    padding-left:10px;  
+}
+a {
+    color:rgb(21, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+header img {
+    float: left;
+}
+/* Form */
+article{ 
+    background-color: rgba(92, 50, 92, 0.774);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    height: 1330px;
+    color: rgb(209, 118, 76);
+    padding-top: 20px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0,255,255);
+}
+* {box-sizing: border-box}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}  
+
+img#user{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+img#phone{
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+}
+
+img#email{
+    width: 19px;
+    height: 16px;
+    display: inline-block;
+}
+
+img#password{
+    width: 15px;
+    height: 16px;
+    display: inline-block;
+}
+
+input[type=text], input[type=password],input[type=tel]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(250,247,255);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus{ 
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1.5px solid #262626;
+    margin-bottom: 25px;
+}
+
+
+
+button:hover {
+    opacity:1;
+}
+  
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.signupbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 640px) {
+    .cancelbtn, .signupbtn {
+          width: 100%;
+   }
+}
+
+footer {
+    background-color:rgba(20, 247, 216, 0.733);
+     text-align: center;
+     font-size: 2em;
+    height:80px;
+     width: 1000px;
+    
+}
+.f a{
+	color:white;
+}
+  
+
+
+
+
+
+
+

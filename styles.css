@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box1 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    background-color: rgba(20, 247, 216, 0.733);
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 150px;
+    width:  1000px;
+ 
+}
+
+main{
+    background-color: rgba(2, 31, 14, 0.63);
+    height:50px;
+    font-size: 18px;
+    padding-top: 20px;
+    width:1000px;
+    text-align: center ;   
+}
+
+
+header img {
+    float: left;
+}
+
+section{ 
+    background-color: rgba(92, 50, 92, 0.774);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    color: rgb(231, 194, 125);
+    padding-top: 20px;
+    box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px,
+				inset rgb(51, 21, 21) 0px 0px 40px;
+	border-left: 3px solid rgb(51, 51, 51);
+	border-right: 3px solid rgb(51, 51, 51);
+}
+
+footer {
+   background-color:rgba(20, 247, 216, 0.733);
+	text-align: center;
+	font-size: 2em;
+   height:80px;
+    width: 1000px;
+    
+}
+
+
+a {
+    color:rgb(21, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.column {
+    float: left;
+    width: 22.33%;
+    padding-left: 50px;
+  }
+  
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.button1 {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    bottom: 0px;
+    right: 220px;
+    padding-bottom: 1px;
+
+
+}
+
+.move{
+    padding-left: 200px;
+    color: wheat;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*aside*/
+
+section aside {
+	float: right;
+	margin: 0 0 20px 20px;
+	padding: 1%;
+	border: 3px solid black;
+	width: 35%;
+	font-size: 0.9em ;
+   background-color: #ffdcdb;
+   color:darkcyan;
+}
+
+section aside h1 {
+	display: block;
+	font-size: 1em;
+	text-align: center;
+	border-bottom: 1px solid rgb(111, 111, 111);
+}
+
+
+.n {
+    animation-name: meFirst;
+    animation-duration: 3s; 
+    animation-timing-function:  ease-in;
+    animation-iteration-count: infinite; 
+   } 
+@keyframes meFirst{
+0% {color: black;}
+    50% {color: red;}
+    100% {color: blue}
+}
+
+    
+
+.f a{
+	color:white;
+}
+
+/*Homepage slideshow*/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*Contact us table*/
+table{
+   padding:20px; 
+  border:2px dashed black;
+}
+th {
+  padding:10px;
+  border:1px solid blue;
+  
+}
+td,tr {
+  border:1px solid red;
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* HTML and Body styles*/
+  body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+header {
+    background-color: rgba(20, 247, 216, 0.733);
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 150px;
+    width:  1000px;
+ 
+}
+
+main{
+    background-color: rgba(2, 31, 14, 0.63);
+    height:50px;
+    font-size: 15px;
+    padding-top: 20px;
+    width:1000px;
+    text-align: center ; 
+    padding-left:10px;  
+}
+
+
+header img {
+    float: left;
+}
+
+section{ 
+    background-color: rgba(92, 50, 92, 0.774);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    height: 2350px;
+    color: rgb(231, 194, 125);
+    padding-top: 20px;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.2em;
+    margin-top: 4%;
+}
+
+
+a {
+    color:rgb(21, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.login {
+    height: 550px;
+    width: 1010px;
+    background-image: url("flowers4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+img#email{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+img#password{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+  
+hr {
+    border: 1.2px solid #262626;
+    margin-bottom: 25px;
+}
+
+.container {
+    position: absolute;
+    right: 320px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  input[type=email], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  footer {
+    background-color:rgba(20, 247, 216, 0.733);
+     text-align: center;
+     font-size: 2.5em;
+    height:80px;
+     width: 1030px;
+    
+}
+.f a{
+color:white;
+}
